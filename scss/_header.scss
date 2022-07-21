@@ -1,0 +1,23 @@
+body{
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #141e30);
+}
+.menu{
+    border-radius: 1rem;
+    border: 5px solid #0f0c29;
+    width: 80%;
+    margin-top: 1rem;
+}
+
+.infoEstudio{
+    font-size: 1.5rem;
+}
+
+.iconoMenu{
+    width: 2.5rem ;
+}
+
+.fotoPerfil{
+    width: 15rem;
+    margin: 1rem;
+    filter: drop-shadow(.2rem .5rem .3rem #141e30);
+}
