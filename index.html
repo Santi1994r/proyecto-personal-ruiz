@@ -9,7 +9,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- -----CSS----- -->
     <link rel="stylesheet" href="./css/style.css">
-    <title>proyecto propio</title>
+    <title>santiago ruiz / desarrollador web</title>
 </head>
 
 <body>
@@ -17,9 +17,10 @@
     <main class="m-3 d-flex justify-content-center">
         <section class="menu">
             <div class="container">
-                <div class="row my-3">
+                <div class="row my-3 seccionUno">
                     <div class="col d-flex justify-content-center">
-                        <img class="fotoPerfil img-fluid rounded" src="./images/foto-linkedin-ruiz.jpg" alt="santiago ruiz">
+                        <img class="fotoPerfil img-fluid rounded" src="./images/foto-linkedin-ruiz.jpg"
+                            alt="santiago ruiz">
                     </div>
                     <div class="col d-flex flex-column align-items-center justify-content-center">
                         <h1 class="text-center my-4">Santiago Ruiz</h1>
@@ -27,15 +28,15 @@
                     </div>
                 </div>
                 <div class="row my-5">
-                    <div class="col d-flex justify-content-center align-items-center">
+                    <div class="col d-flex justify-content-center align-items-center seccionDos">
                         <img class="iconoMenu m-2" src="./images/red-mundial-blanco.png" alt="santiago ruiz">
                         <h3 class="infoEstudio">2 Proyectos</h3>
                     </div>
-                    <div class="col d-flex justify-content-center align-items-center">
+                    <div class="col d-flex justify-content-center align-items-center seccionDos">
                         <img class="iconoMenu m-2" src="./images/estudio-blanco.png" alt="santiago ruiz">
                         <h3 class="infoEstudio">Estudio en CoderHouse</h3>
                     </div>
-                    <div class="col d-flex justify-content-center align-items-center">
+                    <div class="col d-flex justify-content-center align-items-center seccionDos">
                         <img class="iconoMenu m-2" src="./images/certificado-blanco.png" alt="santiago ruiz">
                         <h3 class="infoEstudio">Certificado de Desarrollador Web</h3>
                     </div>
@@ -43,16 +44,92 @@
             </div>
         </section>
     </main>
-
+    <!-- -----FIN MENU---- -->
+    <!-- ------NAV----- -->
     <nav class="navegador">
-        <ul class="d-flex">
-            <li><a class="mx-4" href="#">Sobre Mi</a></li>
-            <li><a class="mx-4" href="#">Servicios</a></li>
-            <li><a class="mx-4" href="#">Proyectos</a></li>
-            <li><a class="mx-4" href="#">Contacto</a></li>
-            <li><a class="mx-4" href="#">CV</a></li>
+        <ul class="d-flex lista">
+            <li><a class="mx-4 item" href="#">Sobre Mi</a></li>
+            <li><a class="mx-4 item" href="#">Servicios</a></li>
+            <li><a class="mx-4 item" href="#">Proyectos</a></li>
+            <li><a class="mx-4 item" href="#">Contacto</a></li>
+            <li><a class="mx-4 item" href="#">CV</a></li>
         </ul>
     </nav>
+    <!-- ----FIN NAV------ -->
+    <!-- -------HABILIDADES------ -->
+    <section>
+        <h4 class="text-center">Habilidades</h4>
+        <div class="container skillBox">
+            <div class="row skillBoxSon">
+                <div class="col imagesBox d-flex justify-content-center align-items-center">
+                    <img class="w-50 images" src="./images/html-5.png" alt="desarrollador web">
+                </div>
+                <div class="col imagesBox d-flex justify-content-center align-items-center">
+                    <img class="w-50 images" src="./images/css-3.png" alt="desarrollador web">
+                </div>
+                <div class="col imagesBox d-flex justify-content-center align-items-center">
+                    <img class="w-50 images" src="./images/sass.png" alt="desarrollador web">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col imagesBox d-flex justify-content-center align-items-center">
+                    <img class="w-50 images" src="./images/git.png" alt="desarrollador web">
+                </div>
+                <div class="col imagesBox d-flex justify-content-center align-items-center">
+                    <img class="w-50 images" src="./images/github.png" alt="desarrollador web">
+                </div>
+                <div class="col imagesBox d-flex justify-content-center align-items-center">
+                    <img class="w-50 images" src="./images/bootstrap.png" alt="desarrollador web">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -------FIN DE HABILIDADES------ -->
+
+    <!-- -------HABILIDADES ADAPTADO A MOBILE SOLAMENTE------ -->
+    <section>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade carrouselMobile" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active d-flex justify-content-center">
+                <img src="./images/html-5.png" class="w-75" alt="desarrollador web">
+              </div>
+              <div class="carousel-item d-flex justify-content-center">
+                <img src="./images/css-3.png" class="d-block w-75" alt="desarrollador web">
+              </div>
+              <div class="carousel-item d-flex justify-content-center">
+                <img src="./images/sass.png" class="d-block w-75" alt="desarrollador web">
+              </div>
+              <div class="carousel-item d-flex justify-content-center">
+                <img src="./images/git.png" class="d-block w-75" alt="desarrollador web">
+              </div>
+              <div class="carousel-item d-flex justify-content-center">
+                <img src="./images/github.png" class="d-block w-75" alt="desarrollador web">
+              </div>
+              <div class="carousel-item d-flex justify-content-center">
+                <img src="./images/bootstrap.png" class="d-block w-75" alt="desarrollador web">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <!-- -------FIN HABILIDADES ADAPTADO A MOBILE------ -->
+
+    <!-- ------FOOTER------ -->
+    <footer>
+        <div class="container-fluid">
+            
+        </div>
+    </footer>
+    <!-- ------FIN DE FOOTER------ -->
+
+
 
     <!-- -----LINK BOOTSTRAP------ -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

@@ -1,0 +1,52 @@
+@media only screen and (max-width: 576px) {
+    /* --------MEDIAQUERY DEL MENU-------- */
+    .menu{
+        width: 100%;
+
+        .seccionUno{
+            display: flex;
+            flex-direction: column;
+        }
+        .seccionDos{
+            height: 8rem;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+    };
+    /* --------FIN MEDIAQUERY DEL MENU-------- */
+
+    /* ------MEDIAQUERY DEL NAVBAR-------- */
+    .navegador {
+        height: 18rem;
+
+        .lista {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+            
+
+            
+        }
+    }
+
+/* ---------FIN DE MEDIAQUERY DEL NAVBAR---------- */
+
+/* ---------MEDIAQUERY DE HABILIDADES----------- */
+    .skillBox{
+        display: none;
+    }
+    
+/* ---------FIN DE MEDIAQUERY DE HABILIDADES----------- */
+
+
+};
+
+@media only screen and (min-width: 577px){
+    .carrouselMobile{
+        display: none;
+    }
+}

@@ -3,9 +3,10 @@ body{
 }
 .menu{
     border-radius: 1rem;
-    border: 5px solid #0f0c29;
+    border: 5px solid #0f0c80;
     width: 80%;
     margin-top: 1rem;
+    box-shadow: 1rem 1rem 1.5rem 1rem black;
 }
 
 .infoEstudio{
@@ -13,7 +14,8 @@ body{
 }
 
 .iconoMenu{
-    width: 2.5rem ;
+    width: 2.5rem;
+    margin: .5rem;
 }
 
 .fotoPerfil{

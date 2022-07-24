@@ -4,9 +4,10 @@ body {
 
 .menu {
   border-radius: 1rem;
-  border: 5px solid #0f0c29;
+  border: 5px solid #0f0c80;
   width: 80%;
   margin-top: 1rem;
+  box-shadow: 1rem 1rem 1.5rem 1rem black;
 }
 
 .infoEstudio {
@@ -15,6 +16,7 @@ body {
 
 .iconoMenu {
   width: 2.5rem;
+  margin: 0.5rem;
 }
 
 .fotoPerfil {
@@ -28,6 +30,83 @@ body {
   margin: 0;
   box-sizing: border-box;
   color: #fff;
+}
+
+.navegador {
+  width: 70%;
+  margin: 4rem auto;
+  background-image: linear-gradient(to right, #0f0c29, #0f0c80, #141e30);
+  border-radius: 0.5rem;
+  box-shadow: 0.5rem 0.5rem 1.5rem 0.5rem black;
+}
+.navegador .lista {
+  list-style: none;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.navegador .lista .item {
+  text-decoration: none;
+}
+
+.skillBox {
+  border: 0.2rem solid #0f0c80;
+  border-radius: 4rem;
+  width: 75%;
+  box-shadow: 0.5rem 0.5rem 1.5rem 0.5rem black;
+  margin-bottom: 4rem;
+  background-image: linear-gradient(to right, #0f0c29, #302b63, #141e30);
+}
+.skillBox .images {
+  margin: 2rem;
+}
+.skillBox .images:hover {
+  transform: scale(1.3);
+  transition: 1s;
+  border-radius: 1rem;
+}
+
+@media only screen and (max-width: 576px) {
+  /* --------MEDIAQUERY DEL MENU-------- */
+  .menu {
+    width: 100%;
+  }
+  .menu .seccionUno {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu .seccionDos {
+    height: 8rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* --------FIN MEDIAQUERY DEL MENU-------- */
+  /* ------MEDIAQUERY DEL NAVBAR-------- */
+  .navegador {
+    height: 18rem;
+  }
+  .navegador .lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  /* ---------FIN DE MEDIAQUERY DEL NAVBAR---------- */
+  /* ---------MEDIAQUERY DE HABILIDADES----------- */
+  .skillBox {
+    display: none;
+  }
+
+  /* ---------FIN DE MEDIAQUERY DE HABILIDADES----------- */
+}
+@media only screen and (min-width: 577px) {
+  .carrouselMobile {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
