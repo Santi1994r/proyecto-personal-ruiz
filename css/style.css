@@ -65,6 +65,27 @@ body {
   border-radius: 1rem;
 }
 
+.footer {
+  background-image: linear-gradient(to right, #0F2027, #203A43, #2c5364);
+  margin-top: 3.5rem;
+}
+.footer .padreLogoLinkedin .col {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer .padreLogoLinkedin .col .logoFooter {
+  width: 4rem;
+  margin: 2rem;
+}
+.footer .padreLogoLinkedin .col .logoFooter:hover {
+  transform: rotate(360deg);
+  transition: 0.5s;
+}
+.footer .padreLogoLinkedin .github {
+  display: flex;
+  justify-content: flex-start;
+}
+
 @media only screen and (max-width: 576px) {
   /* --------MEDIAQUERY DEL MENU-------- */
   .menu {
