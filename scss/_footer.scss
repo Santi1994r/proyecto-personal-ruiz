@@ -1,8 +1,9 @@
 .footer {
     background-image: linear-gradient(to right, #0F2027, #203A43, #2c5364);
     margin-top: 3.5rem;
+    
 
-    .padreLogoLinkedin .col {
+    .padreLogos .col {
         display: flex;
         justify-content: flex-end;
 
@@ -10,14 +11,14 @@
             width: 4rem;
             margin: 2rem;
         }
-        .logoFooter:hover{
+
+        .logoFooter:hover {
             transform: rotate(360deg);
             transition: .5s;
-            
         }
     }
 
-    .padreLogoLinkedin .github {
+    .padreLogos .github {
         display: flex;
         justify-content: flex-start;
     }

@@ -41,7 +41,14 @@
     }
     
 /* ---------FIN DE MEDIAQUERY DE HABILIDADES----------- */
-
+/* ---------MEDIAQUERY DEL FOOTER--------- */
+.mobileFooter .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+/* ---------FIN MEDIAQUERY DEL FOOTER--------- */
 
 };
 

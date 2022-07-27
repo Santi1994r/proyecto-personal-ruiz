@@ -15,5 +15,8 @@
     "url": "https://github.com/Santi1994r/proyecto-personal-ruiz/issues"
   },
   "homepage": "https://github.com/Santi1994r/proyecto-personal-ruiz#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }
