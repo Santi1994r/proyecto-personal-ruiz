@@ -9,19 +9,17 @@ body {
   margin-top: 1rem;
   box-shadow: 1rem 1rem 1.5rem 1rem black;
 }
-
-.infoEstudio {
+.menu .infoEstudio {
   font-size: 1.5rem;
 }
-
-.iconoMenu {
+.menu .iconoMenu {
   width: 2.5rem;
   margin: 0.5rem;
 }
-
-.fotoPerfil {
+.menu .fotoPerfil {
   width: 15rem;
   margin: 1rem;
+  border-radius: 50%;
   filter: drop-shadow(0.2rem 0.5rem 0.3rem #141e30);
 }
 
