@@ -5,7 +5,7 @@ let botonProyectos = document.getElementById("btnProyectos");
 }) */
 
 
-
+/* 
 botonProyectos.addEventListener("click", () => {
     const modalDeProyectos =  botonProyectos.innerHTML = `
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -34,4 +34,4 @@ botonProyectos.addEventListener("click", () => {
                             </div>
                         </div>`;
     botonProyectos = modalDeProyectos
-})                        
+})                         */
